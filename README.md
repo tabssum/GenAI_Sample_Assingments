@@ -18,8 +18,10 @@ Ollama 🧠
 LLaMA 3.2 (Local LLM)
 📸 UI Preview
 
-Add screenshot here (recommended)
-chat_bot_application_UI.png
+
+<img width="1920" height="1020" alt="chat_bot_application_UI" src="https://github.com/user-attachments/assets/a0938cc7-1135-4077-8a05-76b39a0c9613" />
+
+
 
 💡 How It Works
 User types a message in chat UI
