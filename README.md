@@ -1,33 +1,40 @@
-🤖 AI Chatbot (Local LLM using Ollama + Streamlit)
+**🤖 GenAI Projects Portfolio**
 
-A modern AI chatbot application built using Streamlit and Ollama (LLaMA 3.2) that runs completely locally without any API cost. It provides a clean ChatGPT-like UI with streaming responses and conversation memory.
+This repository contains two Generative AI applications built using Python, Streamlit, and Ollama (LLaMA 3.2).
+Both projects run locally without API costs and demonstrate practical use of Large Language Models.
+
+**📌 1. AI Chatbot Application**
+**💬 Description**
+
+A chatbot application that provides a ChatGPT-like experience using a local LLaMA model. It supports real-time conversations with memory and streaming responses.
 
 **✨ Features**
-💬 ChatGPT-like conversational UI
-🧠 Memory-based multi-turn conversation
-⚡ Streaming responses (real-time typing effect)
-🎛️ Model selection (llama3.2 / llama3.2:1b)
-🎚️ Temperature control (creativity adjustment)
-🖥️ Beautiful custom UI with dark theme
-🔒 Fully local (no OpenAI API required)
+1. 💬 ChatGPT-style UI using Streamlit
+2. 🧠 Multi-turn conversation memory
+3. ⚡ Streaming AI responses
+4. 🎛️ Model selection (llama3.2 / llama3.2:1b)
+5. 🎚️ Temperature control for creativity
+6. 🔒 Fully local (no API required)
+7. 📌 2. PDF Summary Generator AI
 
-**🛠️ Tech Stack**
+
+**📌 2. PDF Summary Generator AI
+📄 Description**
+
+An AI-powered tool that extracts text from uploaded PDFs and generates structured summaries using a local LLaMA model.
+
+**✨ Features**
+1. 📤 Upload PDF via Streamlit UI
+2. 📄 Extract text using PyMuPDF
+3. 🧠 AI-based summarization using LLaMA (Ollama)
+4. ⚡ Fast local inference
+5. 📄 Expandable raw text viewer
+6. 🔒 Offline and privacy-friendly
+
+
+**🛠️ Tech Stack (Both Projects)**
 1. Python 🐍
 2. Streamlit 🎨
 3. Ollama 🧠
 4. LLaMA 3.2 (Local LLM)
-
-
-**📸 UI Preview**
-
-
-<img width="1920" height="1020" alt="chat_bot_application_UI" src="https://github.com/user-attachments/assets/a0938cc7-1135-4077-8a05-76b39a0c9613" />
-
-
-
-**💡 How It Works**
-1. User types a message in chat UI
-2. Message is stored in session memory
-3. Entire conversation history is sent to LLaMA via Ollama
-4. Model generates streaming response
-5. Response is displayed in real-time chat format
+5. PyMuPDF 📄
